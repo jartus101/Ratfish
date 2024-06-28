@@ -1,0 +1,32 @@
+.characterCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    height: auto;
+    display: inline-block;
+    object-fit: contain;
+    background-image: linear-gradient(to bottom right, black , rgb(188, 43, 3));
+}
+
+.pfp {
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    border-radius:5px;
+    margin: 10px;
+    object-fit: fill;
+    float: left;
+}
+
+.group {
+    padding: 10px;
+    align-items: center;
+}

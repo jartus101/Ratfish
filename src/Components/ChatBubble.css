@@ -1,0 +1,19 @@
+.sender {
+    border-radius: 8px;
+    padding: 5px;
+    border: 2px solid #000000;
+    background-color: rgba(16, 205, 205, 0.813);
+    text-align: center;
+    height: auto;
+    display: inline-block    
+}
+
+.receiver {
+    border-radius: 8px;
+    padding: 5px;
+    border: 2px solid #000000;
+    background-color: rgba(186, 203, 203, 0.813);
+    text-align: center;
+    height: auto;
+    display: inline-block    
+}
