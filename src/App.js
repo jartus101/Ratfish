@@ -19,22 +19,7 @@ import Navbar from './Components/Navbar';
 import Cards from './Pages/Cards'
 import Login from './Pages/Login'
 
-// Firebase configuration
-const firebaseConfig = {
-  apiKey: "AIzaSyAexQxXFSAct1NQ8Gq0VBhvTo2Br2FjOhE",
-  authDomain: "ratfish-f032a.firebaseapp.com",
-  projectId: "ratfish-f032a",
-  storageBucket: "ratfish-f032a.appspot.com",
-  messagingSenderId: "447596231616",
-  appId: "1:447596231616:web:bd6cfdfbd1000d58daa625",
-  measurementId: "G-2Y899MV5JJ"
-};
-
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const auth = getAuth(app);
-const firestore = getFirestore(app);
-const analytics = getAnalytics(app);
+import { app, auth, firestore, analytics } from './firebase.js';
 
 function App() {
   return (
